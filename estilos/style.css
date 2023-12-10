@@ -34,3 +34,36 @@ section#telefone {
     width: 311px;
     background: url('../pacote-arquivos/imagens/frame-iphone.png') no-repeat;
 }
+
+section#redes-sociais {
+    text-align: right;
+    padding: 15px;
+}
+
+section#redes-sociais > a > img {
+    width: 50px;
+    margin: 7px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.511);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.499);
+    transition: transform 0.5s, border 0.4s;
+}
+
+iframe#tela {
+    position: absolute;
+    /* top: 80px;
+    left: 23px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 477px;
+    width: 268px;
+    border-radius: 2px;
+}
